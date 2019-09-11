@@ -1,0 +1,52 @@
+.danhSachCuoc{
+    position: relative;
+}
+.bg img{
+    z-index: -1;
+    width: 92%;
+    height: 350px;
+}
+
+.items img{
+    border-radius: 5%;
+    width: 130px;
+    height: 130px;
+}
+.items
+{
+    padding: 10px;
+    z-index: 2;
+    position: absolute;
+    top: 5%;
+    left:5%;
+    transform: translate(-5%,-5%);
+}
+
+@media screen and (max-width:992px)
+{
+    .bg img{
+        width: 98%;
+        height: 280px;
+    }
+    
+    .items img{
+        border-radius: 5%;
+        width: 105px;
+        height: 105px;
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    .bg img{
+        z-index: -1;
+        width: 93%;
+        height: 280px;
+    }
+    
+    .items img{
+        border-radius: 5%;
+        width: 95px;
+        height: 95px;
+    }
+}

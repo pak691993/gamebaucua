@@ -1,0 +1,61 @@
+.xucxac{
+border: 1px solid grey;
+padding: 30px;
+width: 100%;
+text-align: center;
+border-radius: 30%;
+box-shadow: inset 0 0 5px #ff9900, 0 0 10px #ff9900;
+background-color: rgba(0, 0, 0, 0.4)
+}
+.xucxac img{
+    width:50px;
+    height:50px;
+}
+.btnXoc{
+    text-align: center;
+    background: orange;
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    left:34%;
+    animation: mymove 0.3s ease-out infinite;
+    border-radius: 20%;
+    border:none;
+    display: block
+}
+.btnXoc :focus{
+    outline: none
+}
+
+@keyframes mymove {
+    0% {left: 34%;}
+    25% {left: 36%;}
+    50%{left: 34%;}
+    75% {left: 31%;}
+    100%{left: 34%;}
+  }
+@media screen and (max-width:992px)
+{
+    .xucxac{
+        padding: 10px;
+        width: 100%;
+    }
+    .xucxac img{
+        width:30px;
+        height:30px;
+    }
+    .btnXoc{
+        width: 70px;
+        height: 30px;
+    }
+    
+}
+
+  @media screen and (max-width:768px)
+{
+    .xucxac img{
+        width:50px;
+        height:50px;
+    }
+}
