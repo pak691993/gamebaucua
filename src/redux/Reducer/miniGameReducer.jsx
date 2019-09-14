@@ -1,11 +1,11 @@
 const stateDefault = {
     danhSachCuoc: [
         { ma: 'bau', hinhAnh: './img/bau.png', diemCuoc: 0 },
-        { ma: 'cua', hinhAnh: './img/cua.PNG', diemCuoc: 0 },
-        { ma: 'tom', hinhAnh: './img/tom.PNG', diemCuoc: 0 },
-        { ma: 'ca', hinhAnh: './img/ca.PNG', diemCuoc: 0 },
-        { ma: 'nai', hinhAnh: './img/nai.PNG', diemCuoc: 0 },
-        { ma: 'ga', hinhAnh: './img/ga.PNG', diemCuoc: 0 },
+        { ma: 'cua', hinhAnh: './img/cua.png', diemCuoc: 0 },
+        { ma: 'tom', hinhAnh: './img/tom.png', diemCuoc: 0 },
+        { ma: 'ca', hinhAnh: './img/ca.png', diemCuoc: 0 },
+        { ma: 'nai', hinhAnh: './img/nai.png', diemCuoc: 0 },
+        { ma: 'ga', hinhAnh: './img/ga.png', diemCuoc: 0 },
     ],
     xucXac: [
         { ma: 'bau', hinhAnh: './img/bau.png', diemCuoc: 0 },
