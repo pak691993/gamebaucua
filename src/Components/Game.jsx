@@ -7,14 +7,16 @@ import './Game.css'
 class Game extends Component {
     render() {
         return (
-            <div className="container">
-                <h1 className="text-center m-4">Well Come</h1>
-                <div className="display-4 text-center  m-2">{this.props.tongDiem.toLocaleString()}$</div>
-                <div className="row">
-                    <div className="col-md-8 col-12"><DanhSachCuoc /></div>
-                    <div className="col-md-4 "><XucXac /></div>
-                </div>
-            </div >
+            <section>
+                    <div className="container">
+                    <h1 className="text-center m-4">Well Come</h1>
+                    <div className="display-4 text-center  m-2">{this.props.tongDiem.toLocaleString()}$</div>
+                    <div className="row">
+                        <div className="col-md-8 col-12"><DanhSachCuoc /></div>
+                        <div className="col-md-4 "><XucXac /></div>
+                    </div>
+                </div >
+            </section>
         )
     }
 }

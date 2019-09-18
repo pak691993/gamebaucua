@@ -6,7 +6,8 @@ import './XucXac.css'
 class XucXac extends Component {
     render() {
         return (
-            <div className="container">
+           <section>
+                <div className="container">
                 <h3>Kết quả</h3>
                 <div className="xucxac row">
                     {this.props.xucXac.map((item, index) => {
@@ -14,7 +15,6 @@ class XucXac extends Component {
                             <img src={item.hinhAnh} alt="/"/>
                         </div>)
                     })}
-
                 </div>
                 <button className="btnXoc mt-3" onClick={() => this.props.choiGame()}>
                     <span>Xóc</span>
@@ -22,6 +22,7 @@ class XucXac extends Component {
                 <button className="text-center m-4 btn btn-danger" onClick={() => this.props.datLai()}>Cược lại</button>
 
             </div>
+           </section>
         )
     }
 }
