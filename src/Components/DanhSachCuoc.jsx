@@ -7,7 +7,8 @@ class DanhSachCuoc extends Component {
     render() {
         return (
             <div className="danhSachCuoc">
-                <div className="bg"><img src='./img/bg.png' alt="bg" /></div>
+                {/* <div className="bg"><img src='./img/bg.png' alt="bg" /></div> */}
+                <div className="bg"><img src="./img/bg.png" alt="bg" /></div>
                 <div className="row items">
                     {this.props.danhSachCuoc.map((item, index) => {
                         return (<div key={index} className="col-md-4 col-4 ">
