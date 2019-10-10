@@ -3,14 +3,13 @@
 }
 .bg img{
     z-index: -1;
-    width: 92%;
-    height: 350px;
+    width: 100%;
 }
 
 .items img{
     border-radius: 5%;
-    width: 130px;
-    height: 130px;
+    width: 100%;
+    height: 100%;
 }
 .items
 {
@@ -22,7 +21,7 @@
     transform: translate(-5%,-5%);
 }
 
-@media screen and (max-width:992px)
+/* @media screen and (max-width:992px)
 {
     .bg img{
         width: 98%;
@@ -44,9 +43,22 @@
         height: 280px;
     }
     
-    .items img{
-        border-radius: 5%;
-        width: 95px;
-        height: 95px;
-    }
 }
+@media screen and (max-width:500px)
+{
+    .bg img{
+        z-index: -1;
+        width: 100%;
+        height: 250px;
+    }
+    
+}
+@media screen and (max-width:350px)
+{
+    .bg img{
+        z-index: -1;
+        width: 100%;
+        height: 220px;
+    }
+    
+} */

@@ -1,11 +1,10 @@
 body{
-  font-family: schoolbell,cursive;
+  font-family: inherit;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #eee;
   background-color: #191D27;
-  background: url("http://bgfons.com/uploads/cloth/cloth_texture1068.jpg");
-  background-size: cover;
+
 }
 
